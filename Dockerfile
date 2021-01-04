@@ -22,4 +22,4 @@ RUN cp /app/noVNC/vnc.html /app/noVNC/index.html
 
 EXPOSE 6080
 
-CMD ["/utils/launch.sh"]
+CMD ["/app/noVNC/utils/launch.sh"]
